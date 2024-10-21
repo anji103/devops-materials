@@ -1,0 +1,17 @@
+terraform force-unlock <lock-id>
+terraform init
+terraform validate
+terraform plan
+terraform apply --auto-approve
+terraform destroy --auto-approve
+terraform workspace list
+terraform workspace new <workspace>
+terraform workspace select <workspace>
+terraform workspace show
+terraform workspace delete <workspace>
+terraform state list
+terraform state show <resource-name>
+terraform state rm <resource-name>
+terraform import <resource-name> <resource-id>
+terraform mv <source> <destination>
+terraform destroy --target=<resource-name>
